@@ -66,9 +66,7 @@ Stable Diffusion → 用 PyTorch → PyTorch 用 CUDA → CUDA 用 cuDNN → 显
 
    > [!NOTE]
    >
-   > 安装路径在~/src/python311/bin/python3.11 --version
-   >
-   > **输出应为 Python 3.10.14**
+   > 安装路径在~/src/python311/bin/python3.11
    >
    > make -j <你 CPU 的核心数量>
    >
