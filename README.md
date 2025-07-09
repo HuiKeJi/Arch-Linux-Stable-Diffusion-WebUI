@@ -186,7 +186,7 @@ proxychains ./webui.sh --xformers
 
 所有依赖都下载完成之后，需要再次运行./webui.sh，但这里就不需要proxychains代理程序了
 
-### 第七步：访问 WebUI
+### 第八步：访问 WebUI
 
 默认监听地址是：
 
@@ -196,7 +196,7 @@ http://127.0.0.1:7860
 
 你可以通过浏览器访问它
 
-### 第八步：退出
+### 第九步：退出
 
 - 按键盘：**CTRL+C**
 - 输入：**deactivate**，即可推出venv命令
