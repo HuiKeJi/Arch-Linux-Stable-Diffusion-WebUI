@@ -169,12 +169,14 @@ source venv/bin/activate
 第一次运行主脚本需要下载很多依赖文件，这里需要科学上网才行
 
 ```
-proxychains ./webui.sh
+proxychains ./webui.sh --xformers
 ```
 
 > [!CAUTION]
 >
-> proxychains是我的终端代理程序，这个需要另外设置
+> **proxychains** 是我的终端代理程序，这个需要另外设置
+>
+> **--xformers** 是启动 Stable Diffusion WebUI 的加速参数，让 WebUI 使用 xformers 这个库来提升生成速度、减少显存占用（尤其是在高分辨率/多图场景下）
 
 如果使用 NVIDIA 显卡，默认会启用 CUDA。AMD 用户可加上参数：
 
@@ -193,3 +195,9 @@ http://127.0.0.1:7860
 ```
 
 你可以通过浏览器访问它
+
+### 第八步：退出
+
+- 按键盘：**CTRL+C**
+- 输入：**deactivate**，即可推出venv命令
+- 最后：**cd**退出整个目录
