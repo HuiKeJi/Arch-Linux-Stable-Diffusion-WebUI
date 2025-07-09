@@ -103,7 +103,7 @@ wget https://huggingface.co/runwayml/stable-diffusion-v1-5/resolve/main/v1-5-pru
 
 也可以换其他 `.ckpt` 或 `.safetensors` 模型。
 
-### 第五步：使用这个3.10.14版本创建虚拟环境
+### 第五步：使用这个3.11.0版本创建虚拟环境
 
 进入 stable-diffusion-webui 目录后：
 
